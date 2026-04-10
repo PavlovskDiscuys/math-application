@@ -52,7 +52,9 @@ public class MathApp {
 
         //Question 7:
 
+        double randomNumber = Math.random();
 
+        System.out.println("The random number is " + randomNumber);
 
         //Question 8:
 
