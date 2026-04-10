@@ -45,7 +45,10 @@ public class MathApp {
 
         //Question 6:
 
+        double negativeNumber = -3.8;
+        double absoluteValue = Math.abs(negativeNumber);
 
+        System.out.println("The absolute value is " + absoluteValue);
 
         //Question 7:
 
