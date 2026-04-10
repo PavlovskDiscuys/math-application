@@ -58,7 +58,21 @@ public class MathApp {
 
         //Question 8:
 
+        int days = 24;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+        int totalMinutes = days * hoursPerDay * minutesPerHour;
 
+        System.out.println("There are " + totalMinutes + "minutes in 24 days");
+
+        //Question 8-Bonus:
+
+        int secondsPerMinute = 60;
+        int millisecondsPerSecond = 1000;
+
+        long totalMilliseconds = (long) days * hoursPerDay * minutesPerHour * secondsPerMinute * millisecondsPerSecond;
+
+        System.out.println("There are " + totalMilliseconds + " milliseconds in 24 days");
 
 
 
