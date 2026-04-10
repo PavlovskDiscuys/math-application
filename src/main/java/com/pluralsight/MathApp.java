@@ -34,7 +34,14 @@ public class MathApp {
 
         //Question 5:
 
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
 
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+        System.out.println("the distance between the two points is " + distance);
 
         //Question 6:
 
